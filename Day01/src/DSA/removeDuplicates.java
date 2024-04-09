@@ -7,7 +7,6 @@ public class removeDuplicates {
 	public static String removeDupli(String str) {
 		StringBuilder result = new StringBuilder();
 		Set<Character> seen = new HashSet<>();
-
 		for (char ch : str.toCharArray()) {
 			if (!seen.contains(ch)) {
 				result.append(ch);
@@ -16,7 +15,6 @@ public class removeDuplicates {
 		}
 		return result.toString();
 	}
-
 	public static void main(String[] args) {
 		String input = "traversal"; // Example input string
 		String output = removeDupli(input);
