@@ -25,7 +25,7 @@ public class ValidPalindromeII {
 		}
 		return true;
 	}
-
+	
 	public static void main(String[] args) {
 		String s1 = "aba"; // true
 		String s2 = "abca"; 
