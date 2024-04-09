@@ -18,7 +18,7 @@ public class removeDuplicates {
 	}
 
 	public static void main(String[] args) {
-		String input = "tree traversal"; // Example input string
+		String input = "traversal"; // Example input string
 		String output = removeDupli(input);
 		System.out.println("Original string: " + input);
 		System.out.println("String after removing duplicates: " + output);
