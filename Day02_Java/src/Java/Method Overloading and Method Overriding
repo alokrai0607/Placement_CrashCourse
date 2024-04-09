@@ -1,0 +1,26 @@
+Method overloading and method overriding are mechanisms to define methods with the same name but different functionalities. Method overloading is achieved within the same class by varying the method arguments either by changing the number of parameters or changing the data type of parameters. It is a compile-time polymorphism.
+
+Method Overriding involves a child and parent class. A method in the child class that has the same method name, same return type, and same parameters as a method in the parent class then the method in the child class overrides the method in the parent class. This is used to achieve runtime polymorphism.
+
+Example of Method Overloading
+
+public class Test {
+  void demo (int a) {
+    System.out.println("a: " + a);
+  }
+  void demo (int a, int b) {
+    System.out.println("a and b: " + a + "," + b);
+  }
+  double demo(double a) {
+    System.out.println("double a: " + a);
+    return a*a;
+  }
+}
+Example of Method Overriding
+
+class Animal{
+  void eat(){System.out.println("eating...");}
+}
+class Dog extends Animal{
+  void eat(){System.out.println("eating bread...");}
+}

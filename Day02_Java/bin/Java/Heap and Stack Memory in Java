@@ -1,0 +1,13 @@
+In Java, memory is divided into two main parts: heap and stack. Heap memory is used for the dynamic allocation of memory for Java objects and JRE classes. Whenever an object is created, it's always stored in the heap space and stack memory contains primitive values specific to a method and references to objects in the heap that are being referred by the method.
+
+Stack memory is used for execution of threads. It contains method specific data, like primitives and references to objects. When a method is invoked, a new block is created on the stack for the method to hold local primitive values and reference to other objects in the method.
+
+Example
+
+public class Test {
+  public void method() {
+    int i = 0;
+    Object obj = new Object();
+  }
+}
+In this example, i is a primitive that would be stored in the stack memory associated with method(). The new Object will be stored in the heap.

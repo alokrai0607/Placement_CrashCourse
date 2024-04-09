@@ -1,0 +1,17 @@
+Garbage Collection in Java is a process by which the programs perform automatic memory management. Java removes unreferenced objects from the heap memory to free up space and make it available for new objects. The JVM's Garbage Collector (GC) runs in the background, monitoring the objects created in the heap and eliminating the ones that are no longer in use.
+
+The System.gc() method provides a hint to the JVM that garbage collection is desired, although it does not guarantee it will happen immediately.
+
+Example In practical Java programming, developers do not control when or how garbage collection takes place, but you can request it:
+
+public class GarbageCollectionExample {
+  public static void main(String[] args) {
+    GarbageCollectionExample obj = new GarbageCollectionExample();
+    obj = null;
+
+    // requesting JVM for running Garbage Collector
+    System.gc();
+
+    System.out.println("End of garbage collection example");
+  }
+}

@@ -1,0 +1,16 @@
+JDK, JRE, and JVM are key components of Java programming. JDK (Java Development Kit) is a software development kit required to develop Java applications. It includes the JRE, an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), and other tools needed in Java development.
+
+JRE (Java Runtime Environment) provides the libraries, the Java Virtual Machine (JVM), and other components to run applications written in Java. It does not contain tools and utilities such as compilers or debuggers for developing applets and applications.
+
+JVM (Java Virtual Machine) is the virtual machine that runs the Java bytecode. It does not physically exist. It is software that is implemented over hardware. Java bytecode is the intermediate representation of your Java program which is platform-independent.
+
+Example
+
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, world!");
+  }
+}
+In this example, to compile the HelloWorld program, you use JDK's javac tool. To run the compiled bytecode, you use JRE.
+
+

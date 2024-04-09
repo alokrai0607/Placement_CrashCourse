@@ -1,0 +1,5 @@
+Polymorphism, one of the OOP concepts, refers to the ability of a variable, function or object to take multiple forms. It is divided into two types: compile-time polymorphism (achieved through method overloading) and runtime polymorphism (achieved through method overriding).
+
+Polymorphism allows methods to do different things based on the object that it is acting upon, even if they have the same name. It enhances the flexibility and maintainability of the code.
+
+Example Given the previous examples for method overloading and overriding, the overloading example demonstrates compile-time polymorphism, and the overriding example shows runtime polymorphism.
