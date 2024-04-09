@@ -1,5 +1,7 @@
 package DSA;
 
+//String Rotation Check: Given two strings, check if one is a rotation of the other using only one 
+//call to a substring method (e.g., “waterbottle” is a rotation of “erbottlewat”).
 public class isRotation {
 	public static boolean isRot(String str1, String str2) {
 		// Check if lengths are equal and not empty
