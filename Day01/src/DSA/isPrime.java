@@ -3,6 +3,7 @@ package DSA;
 
 
 public class isPrime {
+	
     public static boolean isPrime(int n) {
         if (n <= 1)
             return false;
