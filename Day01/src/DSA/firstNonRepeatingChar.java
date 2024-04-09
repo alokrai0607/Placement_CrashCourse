@@ -3,6 +3,8 @@ package DSA;
 import java.util.HashMap;
 import java.util.Map;
 
+//First Non-Repeating Character: Find the first non-repeating character in a string.
+
 public class firstNonRepeatingChar {
 	public static char firNonRepChar(String str) {
 		// Create a HashMap to store character frequencies
