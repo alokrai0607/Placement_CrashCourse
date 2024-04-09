@@ -1,5 +1,8 @@
 package DSA;
 
+
+//Rotation Count in Rotated Sorted Array: Find out how many times a sorted array has been rotated. Assume there are no duplicates.
+
 public class findRotationCount {
 	public static int findRotCount(int[] arr) {
 		int n = arr.length;
