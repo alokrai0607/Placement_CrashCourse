@@ -1,5 +1,8 @@
 package DSA;
 
+//Rotate an array to the right by "K" steps: Rotate an array in place with minimal extra space. 
+//The solution should consider various edge cases and optimize for time complexity.
+
 public class rotateArray {
 	public static void rotArray(int[] nums, int k) {
 		int n = nums.length;
