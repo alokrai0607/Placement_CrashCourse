@@ -1,0 +1,26 @@
+
+
+1.  Open Notepad:
+2.  Write the code
+
+3.  public class HelloWorld {
+		    public static void main(String[] args) {
+		        System.out.println("Hello, World!");
+		    }
+	}
+4. Save the file: Save the file with a ".java" extension.
+
+5. Open CMD
+
+6. Navigate to the directory 
+
+7. cd path\to\directory
+8. Compile the Java file  : Use the javac command to compile the Java file.
+
+9. javac HelloWorld.java
+
+10 . Check for errors : If there are no errors, you'll see a new file named "HelloWorld.class" generated in the same directory.
+11. Run the program: Use the java command to run the compiled Java program.
+
+12. java HelloWorld
+13. See the output: You should see the output "Hello, World!" printed in the CMD window.
